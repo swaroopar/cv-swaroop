@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Engineer",
   summary:
-    "As an Engineer, my focus has been always on engineering simple solutions to complex problems. I have around 15 years of experience across different phases of the software development life cycle.",
+    "As an Engineer, my focus has been always on engineering simple solutions for complex problems. I have around 15 years of experience across different phases of the software development life cycle.",
   avatarUrl: "https://avatars.githubusercontent.com/u/54129659?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -109,8 +109,8 @@ export const RESUME_DATA = {
       description: "A platform to build and grow your online business",
       logo: undefined,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "eclipse-xpanse",
+        href: "https://eclipse.dev/xpanse",
       },
     },
   ],
