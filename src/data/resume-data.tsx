@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   summary:
     "As an Engineer, my focus has been always on engineering simple solutions for complex problems. I have around 15 years of experience across different phases of the software development life cycle.",
   avatarUrl: "https://avatars.githubusercontent.com/u/54129659?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://inprogress-engineer.com",
   contact: {
     email: "swaroop.ar@outlook.com",
     tel: "+4917688462544",
@@ -46,43 +46,45 @@ export const RESUME_DATA = {
     {
       company: "Wipro",
       link: "https://wipro.com",
-      badges: ["onsite", "pune", "munich"],
-      title: "Technical Lead",
+      badges: ["QA", "DBA", "Automation"],
+      title: "Software Engineer",
       start: "2009",
       end: "2016",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Responsible for quality assurance and test environments for telecom providers. Worked on all phases of software quality lifecycle. Later on extensively worked on administrating and managing complete test infrastructure. " +
+        "Technologies: Linux, OracleDB, Weblogic, Service Integration, end-to-end testing, business process analysis",
     },
     {
       company: "Cognizant",
       link: "https://cognizant.com",
-      badges: ["munich"],
+      badges: ["munich", "DevOps", "microservices"],
       title: "Lead DevOps Engineer",
       start: "2016",
       end: "2019",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Responsible for development and operations of Java based microservices application. Implementation of REST APIs, middleware, integration to different backend systems, automation of delivery process, 3rd level support. " +
+        "Technologies: Java, SpringBoot, Jersey, REST Api, Jenkins, WLST, Python scripting, Weblogic, load balancers",
     },
     {
       company: "Airbus",
       link: "https://airbus.com/",
-      badges: ["private cloud"],
+      badges: ["private cloud", "Automation", "RPA"],
       title: "Lead Software Engineer",
       logo: undefined,
       start: "2020",
       end: "2022",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Building automation for complete zero-touch deployment of private cloud. Automation using Camunda and Ansible. Technologies: Java, Camunda, Ansible, fast-api, Python, RPA"
     },
     {
       company: "Huawei",
       link: "https://www.huawei.com",
-      badges: ["research", "cloud"],
+      badges: ["R&D", "cloud", "opensource"],
       title: "Principal Cloud Engineer",
       logo: undefined,
       start: "2023",
-      end: "-",
-      description: "Creating and testing software for LTE base stations",
+      end: "current",
+      description: "R&D projects in public cloud domain. Building full stack opensource projects. Technologies: Java, SaaS, PaaS, TypeScript, ReactJS, spring-boot and spring",
     },
   ],
   skills: [
@@ -93,6 +95,9 @@ export const RESUME_DATA = {
     "Java",
     "RestAPI",
     "SpringBoot",
+    "Python",
+    "Full-Stack",
+    "Ansible"
   ],
   projects: [
     {
@@ -106,7 +111,7 @@ export const RESUME_DATA = {
         "RestAPI",
         "SpringBoot",
       ],
-      description: "A platform to build and grow your online business",
+      description: "xpanse is here to make native cloud services configurable and portable.",
       logo: undefined,
       link: {
         label: "eclipse-xpanse",
