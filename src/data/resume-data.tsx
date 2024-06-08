@@ -57,8 +57,8 @@ export const RESUME_DATA = {
     {
       company: "Cognizant",
       link: "https://cognizant.com",
-      badges: ["munich", "DevOps", "microservices"],
-      title: "Lead DevOps Engineer",
+      badges: ["containers", "DevOps", "microservices"],
+      title: "Senior DevOps Engineer",
       start: "2016",
       end: "2019",
       description:
@@ -79,7 +79,7 @@ export const RESUME_DATA = {
     {
       company: "Huawei",
       link: "https://www.huawei.com",
-      badges: ["R&D", "cloud", "opensource"],
+      badges: ["R&D", "cloud", "opensource", "full-stack"],
       title: "Principal Cloud Engineer",
       logo: undefined,
       start: "2023",
@@ -94,10 +94,16 @@ export const RESUME_DATA = {
     "ReactJS",
     "Java",
     "RestAPI",
-    "SpringBoot",
+    "Spring",
     "Python",
     "Full-Stack",
-    "Ansible"
+    "Ansible",
+    "Terraform",
+    "Cloud",
+    "CI/CD",
+    "DevOps",
+    "QA",
+    "Automation"
   ],
   projects: [
     {
@@ -110,12 +116,44 @@ export const RESUME_DATA = {
         "Java",
         "RestAPI",
         "SpringBoot",
+        "Vite"
       ],
       description: "xpanse is here to make native cloud services configurable and portable.",
       logo: undefined,
       link: {
         label: "eclipse-xpanse",
         href: "https://eclipse.dev/xpanse",
+      },
+    },
+    {
+      title: "terraform-boot",
+      techStack: [
+        "OpenSource",
+        "Java",
+        "OpenAPI",
+        "Spring",
+        "Terraform"
+      ],
+      description: "REST Wrapper for Terraform",
+      logo: undefined,
+      link: {
+        label: "terraform-boot",
+        href: "https://github.com/eclipse-xpanse/terraform-boot",
+      },
+    },
+    {
+      title: "personal website",
+      techStack: [
+        "OpenSource",
+        "TypeScript",
+        "Docusaurus",
+        "tailwind",
+      ],
+      description: "REST Wrapper for Terraform",
+      logo: undefined,
+      link: {
+        label: "inprogress-engineer",
+        href: "https://www.inprogress-engineer.com/",
       },
     },
   ],
