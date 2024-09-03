@@ -172,5 +172,20 @@ export const RESUME_DATA = {
         href: "https://github.com/eclipse-xpanse/tofu-maker",
       },
     },
+    {
+      title: "policy-man",
+      techStack: [
+        "OpenSource",
+        "Golang",
+        "OpenAPI",
+        "OPA"
+      ],
+      description: "REST Wrapper for CNCF OPA framework",
+      logo: undefined,
+      link: {
+        label: "policy-man",
+        href: "https://github.com/eclipse-xpanse/policy-man",
+      },
+    },
   ],
 } as const;
