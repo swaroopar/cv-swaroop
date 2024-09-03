@@ -107,7 +107,7 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Eclipse Xpanse",
+      title: "eclipse-xpanse",
       techStack: [
         "OpenSource",
         "TypeScript",
@@ -149,11 +149,27 @@ export const RESUME_DATA = {
         "Docusaurus",
         "tailwind",
       ],
-      description: "REST Wrapper for Terraform",
+      description: "Document my learnings",
       logo: undefined,
       link: {
         label: "inprogress-engineer",
         href: "https://www.inprogress-engineer.com/",
+      },
+    },
+    {
+      title: "tofu-maker",
+      techStack: [
+        "OpenSource",
+        "Java",
+        "OpenAPI",
+        "Spring",
+        "OpenTofu"
+      ],
+      description: "REST Wrapper for OpenTofu",
+      logo: undefined,
+      link: {
+        label: "tofu-maker",
+        href: "https://github.com/eclipse-xpanse/tofu-maker",
       },
     },
   ],
